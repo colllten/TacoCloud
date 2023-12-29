@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data
 public class Taco {
-    private final String name;
+    private String name;
     private List<Ingredient> ingredients;
 }
